@@ -1,6 +1,7 @@
 name: JellyBook Android Builder
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
